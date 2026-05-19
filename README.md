@@ -14,6 +14,3 @@
 -   **Integrasi Perangkat Keras**: Mendukung pemindai barcode (baik berbasis kamera maupun hardware eksternal) serta pencetakan struk thermal melalui API cetak browser.
 -   **Panel Admin Berfitur Lengkap**: Bagian sisi server yang aman bagi administrator untuk mengelola pelanggan, lisensi, paket langganan, serta memantau riwayat pembayaran dan sesi pengguna yang sedang online.
 -   **Laporan Mendalam**: Menyediakan laporan mendetail untuk penjualan, inventaris, pergerakan stok, dan konsumsi bahan baku, dengan opsi ekspor ke Excel dan PDF.
-
----
-*© 2026 TokoCepat POS. Hak Cipta Dilindungi.*
