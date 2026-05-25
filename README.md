@@ -14,3 +14,16 @@
 -   **Integrasi Perangkat Keras**: Mendukung pemindai barcode (baik berbasis kamera maupun hardware eksternal) serta pencetakan struk thermal melalui API cetak browser.
 -   **Panel Admin Berfitur Lengkap**: Bagian sisi server yang aman bagi administrator untuk mengelola pelanggan, lisensi, paket langganan, serta memantau riwayat pembayaran dan sesi pengguna yang sedang online.
 -   **Laporan Mendalam**: Menyediakan laporan mendetail untuk penjualan, inventaris, pergerakan stok, dan konsumsi bahan baku, dengan opsi ekspor ke Excel dan PDF.
+
+## 🚀 Rilis Terbaru (v0.3.1) - Manajemen Konsinyasi / Titipan
+
+Pembaruan versi **v0.3.1** memperkenalkan dukungan penuh untuk **Produk Konsinyasi (Titipan Pihak Ketiga)**, memberikan kemampuan bagi pemilik toko untuk bermitra dengan pemasok luar secara akurat, andal, dan mudah dikelola bahkan untuk skema operasional harian (*daily resetting items*).
+
+Beberapa perubahan dan penambahan utama meliputi:
+
+-   **Skema Komisi Fleksibel**: Mendukung bagi hasil berdasarkan **Persentase (%)** dari nilai jual atau **Flat / Nominal Tetap (Rp)** per unit item yang berhasil terjual.
+-   **Manajemen Form Produk Pintar**: Menghilangkan kolom Harga Modal (*cost price*) secara dinamis pada produk yang ditandai sebagai konsinyasi untuk mencegah tumpang tindih data, serta membersihkan nilai modal secara otomatis saat formulir disimpan.
+-   **Buku Laporan Bagi Hasil Dedicated**: Menyediakan halaman laporan khusus konsinyasi untuk mengaudit jumlah barang masuk (pagi), barang terjual (siang), sisa barang ditarik kembali oleh penitip (sore), komisi yang berhak disimpan toko, serta nominal total siap bayar ke penitip.
+-   **Pemisahan HPP & Liabilitas Titipan**: Menyempurnakan Laporan Penjualan dan Audit Laba & Kas dengan memisahkan nilai aset HPP toko dari kewajiban biaya bagi hasil konsinyasi. Hal ini menjaga keakuratan analisis margin keuntungan riil toko Anda tanpa distorsi angka modal.
+-   **Antarmuka Kasir Informatif**: Menambahkan penanda (*badge*) visual bertuliskan "Titipan" serta nama penitip pada baris keranjang kasir (*Classic & Default Cashier*) dan modal riwayat transaksi sif untuk memudahkan identifikasi oleh operator kasir.
+-   **Ekspor Dokumen yang Diperbarui**: Fungsi ekspor laporan penjualan dan audit ke Excel (.xlsx) & PDF (.pdf) kini mendukung visualisasi kolom HPP Standar, Bagi Hasil Titipan, Pajak, dan Laba Bersih secara terpisah.
